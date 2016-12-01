@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Foundation 4</title>
+
+  
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+
+  <script src="javascripts/vendor/custom.modernizr.js"></script>
+  <script src="javascripts/footer.js"></script>
+</head>
+<body onload="createLinks()">
+
+	<div class="row">
+		<div class="large-12 columns">
+			<header>
+		<section><div></div></section>
+		<section><div></div></section>
+	</header>
+	<div id="content">
+		<section id="top">
+			<h1>create new user</h1>
+			<form data-abide>
+			<div class="name-field">
+          <label>First Name</label>
+          <input type="text" required></input>
+          <small class="error" data-error-message="">A first and last name is required.</small>
+          </div>
+          <div class="name-field">
+          <label>Last Name</label>
+          <input type="text" required></input>
+          <small class="error" data-error-message="">A first and last name is required.</small>
+          </div>
+          <div class="email-field">
+          <label>Email</label>
+        <input id="email" type="email" required></input>
+       <small class="error">An email address is required.</small>
+       </div>
+          <div class="email-field">
+          <label>Re-enter Email</label>
+        <input type="email" required></input>
+       <small class="error">The emails must match.</small>
+       </div>
+
+           <label for="password">Password</label>
+           <input id="password" type="password" required="" name="password"></input>
+           <small class="error"></small>
+
+
+           <label for="confirmPassword">Confirm Password</label>
+           <input id="confirmPassword" type="password" data-equalto="password" required="" name="confirmPassword" data-invalid=""></input>
+           <small class="error" data-error-message="">Passwords must match.</small>
+	<p><label for ="user_phone">Phone</label>
+	<input type="text" name="Phone"></p>
+
+	<p><label for ="user_admin">Admin</label>
+	<input type="radio" name="admin" value="1" checked> Yes<br>
+  <input type="radio" name="admin" value="0"> No<br>
+
+           
+          <br />
+          <br />         
+          <button type="submit">Create Account</button>
+          <br />
+
+
+	
+</form>
+		</section>
+		
+	</div>
+	<footer>
+		<section>
+			<article>
+				<div id="linkList">
+			
+				</div>
+			</article>
+			<article>
+				<div id="footerLogo">
+
+					<div>
+					</article>
+				</section>
+				<section>
+					<div>
+						<a><img src="images/logo_facebook.png"></a>
+						<a><img src="images/logo_googleplus.png"></a>
+						<a><img src="images/logo_in.png"></a>
+						<a><img src="images/logo_rss.png"></a>
+						<a><img src="images/logo_twitter.png"></a>
+						<a><img src="images/logo_youtube.png"></a>
+					</div>
+				</section>
+			</footer>
+		</div>
+	</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="javascripts/foundation/foundation.js"></script>
+	
+	<script src="javascripts/foundation/foundation.abide.js"></script>
+	
+	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	
+	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	
+	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	
+	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	
+	<script src="javascripts/foundation/foundation.forms.js"></script>
+	
+	<script src="javascripts/foundation/foundation.interchange.js"></script>
+	
+	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	
+	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	
+	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	
+	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	
+	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	
+	<script src="javascripts/foundation/foundation.section.js"></script>
+	
+	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	
+	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
